@@ -4,9 +4,11 @@ var Record = require("../record");
 describe("Record", function() {
 
   var record;
+  var record2;
 
   beforeEach(function() {
     record = new Record("Radio Futura", "Escuela de Calor", "Pop Español", 10);
+    record2 = new Record("Extremoduro", "Iros todos a tomar por culo", "Rock Español", 5);
   });
 
   it("Should have a name", function() {
