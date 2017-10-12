@@ -25,4 +25,8 @@ describe("Record", function() {
     assert.strictEqual(record.price, 10)
   });
 
+  it("should provide all details", function() {
+    assert.strictEqual(record.logRecord(), "Artist: Radio Futura, Title: Escuela de Calor, Genre: Pop Español, Price: 10. Thanks.");
+  })
+
 })
